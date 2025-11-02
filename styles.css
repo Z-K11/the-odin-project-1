@@ -156,9 +156,14 @@ a
 .section-3
 {
     height: 400px;
+    padding: 0 20%;
+
 }
 .verse,.reference
 {
     display: block;
-    width: 100%;
+}
+.verse
+{
+    text-align: center;
 }
