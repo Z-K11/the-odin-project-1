@@ -67,6 +67,7 @@ a
 .left-content > p
 {
     margin: 30px 0;
+    font-size: 18px;
 }
 .rent-heading
 {
@@ -84,12 +85,12 @@ a
     border-radius: 10px;
     margin: auto;
     box-sizing: border-box;
-    width : 100px;
+    width : 150px;
 }
 .left-content > button:hover
 {
     background-color: #3882F6;
-    border-color: orange;
+    border-width: 3px;
     border-radius: 25px;
 }
 .link-1:hover,.left-header:hover
@@ -165,6 +166,7 @@ a
     
 
 }
+
 .verse,.reference
 {
     display: block;
@@ -183,4 +185,43 @@ a
     justify-content: flex-end;
     font-size: 18px;
     font-weight: 500;
+}
+.section-4
+{
+    background-color: white;
+    height: 400px;
+    font-size: 18px;
+    color: white;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+}
+.content-4
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 60px 120px ;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+.left-4 > h4
+{
+    font-size: 24px;
+}
+.right-4 > button
+{
+    padding :10px 25px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.right-4 > button:hover
+{
+    color: black;
+    background-color: white;
 }
