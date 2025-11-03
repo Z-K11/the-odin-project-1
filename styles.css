@@ -88,7 +88,7 @@ a
 }
 .left-content > button:hover
 {
-    background-color: rgba(99, 190, 252, 0.712);
+    background-color: #3882F6;
     border-color: orange;
     border-radius: 25px;
 }
@@ -157,7 +157,7 @@ a
 .section-3
 {
     height: 500px;
-    padding: 0 20%;
+    padding: 0 15%;
     background-color: #29363E;
     box-sizing: border-box;
     display: flex;
@@ -172,9 +172,9 @@ a
 }
 .verse
 {
-    text-align: center;
+    
     font-size: 42px;
-    font-family: cursive;
+    font-family: serif;
     margin-bottom: 20px;
 }
 .reference
