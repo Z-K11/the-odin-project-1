@@ -2,6 +2,7 @@
 {
     padding: 0;
     margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a
 {
@@ -155,15 +156,31 @@ a
 }
 .section-3
 {
-    height: 400px;
+    height: 500px;
     padding: 0 20%;
+    background-color: #29363E;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    
 
 }
 .verse,.reference
 {
     display: block;
+    color: white;
 }
 .verse
 {
     text-align: center;
+    font-size: 42px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.reference
+{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 500;
 }
